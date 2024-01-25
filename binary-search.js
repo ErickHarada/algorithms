@@ -10,7 +10,7 @@ while (start <= end) {
     let guess = list[middle];
 
     if (guess === findNumber) {
-        return console.log("numero", guess);
+        return console.log("number", guess, "position", middle);
     } else if (guess > findNumber) {
         end = middle - 1;
     } else {
